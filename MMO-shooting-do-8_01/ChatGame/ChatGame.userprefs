@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Contoroller.cs">
+    <Files>
+      <File FileName="Assets/Mover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Contoroller.cs" Line="21" Column="21" />
+      <File FileName="Assets/CameraControl.cs" Line="17" Column="17" />
+      <File FileName="Assets/NetworkViewManager.cs" Line="32" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
