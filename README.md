@@ -1,2 +1,2 @@
-# Network-shooting
-Network shooting repository on Unity
+# Network-Shooting-Sample
+Network Shooting Sample repository on Unity
