@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Bullet : MonoBehaviour {
+public class Bullet : Mover {
 
 	int count = 0;
 	Vector3 vec;
-	public void Init (Vector3 v) {
+	public void Init (GameObject g, Vector3 v) {
+		owner = g;
 		vec = v;
 	}
 
