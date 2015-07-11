@@ -19,7 +19,7 @@ public class Bullet : Mover {
 
 		count++;
 		if (count > 120) {
-			Destroy (gameObject);
+			Network.Destroy (gameObject);
 		}
 		GetComponent <NetworkView> ().RPC ("MovePlayer", RPCMode.Others, transform.position);
 	}

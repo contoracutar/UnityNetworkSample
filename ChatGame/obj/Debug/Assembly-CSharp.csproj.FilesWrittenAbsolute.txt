@@ -34,3 +34,15 @@
 /Users/naohiro/Documents/GitHub/Unity/NetworkSample/MMO-shooting-do-8_01/ChatGame/Temp/bin/Debug/Unity.DataContract.dll
 /Users/naohiro/Documents/GitHub/Unity/NetworkSample/MMO-shooting-do-8_01/ChatGame/Temp/bin/Debug/ICSharpCode.NRefactory.dll
 /Users/naohiro/Documents/GitHub/Unity/NetworkSample/MMO-shooting-do-8_01/ChatGame/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/obj/Debug/Assembly-CSharp.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/UnityEngine.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/UnityEditor.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/Mono.Cecil.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/Unity.DataContract.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/naohiro/Documents/GitHub/Unity/NetworkSample/ChatGame/Temp/bin/Debug/Unity.CecilTools.dll
