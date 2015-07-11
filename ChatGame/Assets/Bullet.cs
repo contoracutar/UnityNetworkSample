@@ -4,14 +4,14 @@ using System.Collections;
 public class Bullet : Mover {
 
 	int count = 0;
+	public NetworkViewID nId;
 	Vector3 vec;
-	public void Init (GameObject g, Vector3 v) {
-		owner = g;
+	public void Init (NetworkViewID id, Vector3 v) {
+		nId = id;
 		vec = v;
 	}
 
 	void Start () {
-	
 	}
 	
 	void Update () {

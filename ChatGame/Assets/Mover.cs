@@ -8,6 +8,11 @@ public class Mover : MonoBehaviour {
 	public Quaternion rotation;
 	public GameObject owner = null;
 
+	public enum Name {
+		Nomura, Douya, Ohata, Miura
+	}
+	Name name;
+
 	public float Radians (float angle) {
 		return angle * Mathf.PI / 180.0f;
 	}

@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraControl : MonoBehaviour {
 
 	GameObject n, d, o, m;
-	public static GameObject myObj;
+	public GameObject myObj;
 
 	private float pos_y = 10;
 
@@ -14,9 +14,9 @@ public class CameraControl : MonoBehaviour {
 		o = GameObject.Find ("ohata");
 		m = GameObject.Find ("miura");
 		myObj = n.GetComponent<Contoroller> ().isMine ? n.gameObject:
-			d.GetComponent<Contoroller> ().isMine ? n.gameObject:
-			o.GetComponent<Contoroller> ().isMine ? n.gameObject:
-			m.GetComponent<Contoroller> ().isMine ? n.gameObject:null;
+			d.GetComponent<Contoroller> ().isMine ? d.gameObject:
+			o.GetComponent<Contoroller> ().isMine ? o.gameObject:
+			m.GetComponent<Contoroller> ().isMine ? m.gameObject:null;
 	}
 	
 	void Update () {
