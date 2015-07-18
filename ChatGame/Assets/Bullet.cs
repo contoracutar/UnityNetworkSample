@@ -28,4 +28,11 @@ public class Bullet : Mover {
 	public void MovePlayer (Vector3 position) {
 		transform.position = position;
 	}
+
+//	void OnTriggerEnter (Collider c) {
+//		if (c.gameObject.GetComponent<NetworkView>().viewID != nId) {
+//			Network.Destroy (c.gameObject);
+//			Network.Destroy (gameObject);
+//		}
+//	}
 }

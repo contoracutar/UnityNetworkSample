@@ -7,6 +7,7 @@ public class Contoroller : Mover {
 	float s = 0.5f;
 
 	GameObject bullet, b;
+	int nC, dC, oC, mC;
 	void Start () {
 		bullet = (GameObject)Resources.Load ("Bullet");
 	}
@@ -41,9 +42,30 @@ public class Contoroller : Mover {
 		b.GetComponent<Bullet> ().Init (id, vel);
 	}
 
+	[RPC]
+	public void ScoreCounter (int n) {
+		if (n == 0) { Score.nCount++; }
+		if (n == 1) { Score.nCount++; }
+		if (n == 2) { Score.nCount++; }
+		if (n == 3) { Score.nCount++; }
+	}
 
 	void OnTriggerEnter(Collider c){
 		if (c.gameObject.GetComponent<Bullet>().nId != GetComponent<NetworkView> ().viewID){
+		
+			if (CameraControl.n.GetComponent<NetworkView> ().viewID == c.GetComponent<Bullet> ().nId) {
+				GetComponent<NetworkView> ().RPC ("ScoreCounter", RPCMode.All, 0);
+			}
+			if (CameraControl.d.GetComponent<NetworkView> ().viewID == c.GetComponent<Bullet> ().nId) {
+				GetComponent<NetworkView> ().RPC ("ScoreCounter", RPCMode.All, 1);
+			}
+			if (CameraControl.o.GetComponent<NetworkView> ().viewID == c.GetComponent<Bullet> ().nId) {
+				GetComponent<NetworkView> ().RPC ("ScoreCounter", RPCMode.All, 2);
+			}
+			if (CameraControl.m.GetComponent<NetworkView> ().viewID == c.GetComponent<Bullet> ().nId) {
+				GetComponent<NetworkView> ().RPC ("ScoreCounter", RPCMode.All, 3);
+			}
+
 			Network.Destroy (c.gameObject);
 			Network.Destroy (gameObject);
 		}

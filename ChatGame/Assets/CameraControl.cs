@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraControl : MonoBehaviour {
 
-	GameObject n, d, o, m;
+	public static GameObject n, d, o, m;
 	public GameObject myObj;
 
 	private float pos_y = 10;
