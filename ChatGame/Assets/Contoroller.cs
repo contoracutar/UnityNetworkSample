@@ -45,9 +45,9 @@ public class Contoroller : Mover {
 	[RPC]
 	public void ScoreCounter (int n) {
 		if (n == 0) { Score.nCount++; }
-		if (n == 1) { Score.nCount++; }
-		if (n == 2) { Score.nCount++; }
-		if (n == 3) { Score.nCount++; }
+		if (n == 1) { Score.dCount++; }
+		if (n == 2) { Score.oCount++; }
+		if (n == 3) { Score.mCount++; }
 	}
 
 	void OnTriggerEnter(Collider c){
